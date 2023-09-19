@@ -5,6 +5,14 @@ body {
   font-size: 16px;
   line-height: 24px;
 }
+.link_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 4%;
+  text-decoration: underline;
+}
 h1 {
   font-weight: bold;
   font-family: "Roboto", sans-serif;
@@ -23,6 +31,9 @@ button {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 4%;
+}
+button:active {
+  background: #404bbf;
 }
 h2 {
     font-family: "Roboto", sans-serif;
