@@ -4,7 +4,7 @@ body {
   background-color: #ffffff;
 }
 .logo {
-  font-family: "Releway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -66,7 +66,7 @@ body {
 }
 .button:hover,
 .button:focus {
-  background: #404bbf;
+  color: var(--OCEAN, #404bbf);
 }
 .header_three_section_two {
   font-family: "Roboto", sans-serif;
@@ -87,7 +87,7 @@ body {
 .section_three {
   background-color: #f4f4fd;
 }
-.section_three {
+.li_section_three {
   background-color: #ffffff;
 }
 .header_two_section_three {
