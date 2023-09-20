@@ -133,13 +133,14 @@ body {
   line-height: 1.2;
   font-size: 20px;
   font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }
 .paragraph_header_three_section_four {
-  font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: #2e2f42;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
 }
 .footer {
   background-color: rgba(46, 47, 66, 1);
