@@ -1,8 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: normal;
   color: #434455;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 header {
   font-family: "Releway", sans-serif;
@@ -16,7 +15,7 @@ header {
 .span {
   color: #2e2f42;
 }
-.studio {
+.li_link {
   font-family: "Releway", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -24,64 +23,38 @@ header {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.studio:hover {
+.li_link:hover,
+.link_info:focus {
   color: #404bbf;
 }
-.studio:focus {
-  color: #404bbf;
+.address {
+  font-style: 500;
 }
-.portfolio {
-  font-family: "Releway", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.portfolio:hover {
-  color: #404bbf;
-}
-.portfolio:focus {
-  color: #404bbf;
-}
-.contacts {
-  font-family: "Releway", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.contacts:hover {
-  color: #404bbf;
-}
-.contacts:focus {
-  color: #404bbf;
-}
-address {
-  font-style: normal;
+.contact {
+  font-family: "Roboto", sans-serif;
+  font-style: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.info:hover {
-  color: #404bbf;
-}
+.info:hover,
 .info:focus {
   color: #404bbf;
 }
-h1 {
-  font-weight: bold;
+.section_one {
+  background: #2e2f42;
+}
+.header_one {
+  font-weight: 700;
   font-family: "Roboto", sans-serif;
   text-align: center;
   color: rgba(255, 255, 255, 1);
-  line-height: 60px;
   letter-spacing: 0.02em;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 1.12;
 }
-button {
+.button {
   font-family: "Roboto", sans-serif;
   border: 16px, 32px, 16px, 32px;
   font-weight: 500;
@@ -92,59 +65,84 @@ button {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.button:hover {
+.button:hover,
+.button:focus {
   background: #404bbf;
 }
-.button:focus {
-  background-color: #404bbf;
+.header_three_section_two {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgba(46, 47, 66, 1);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.2;
 }
-.header_three {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    color: rgba(46,47,66,1);
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    line-height: 1.2;
-}
-.paragraph {
+.paragraph_section_two {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  color: rgba(67,68,85,1);
+  color: rgba(67, 68, 85, 1);
 }
 .section_three {
   background-color: #f4f4fd;
 }
-.header_two {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color:#2e2f42;
+.header_two_section_three {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  font-weight: 700;
+}
+.header_three_section_three {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgba(46, 47, 66, 1);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.paragraph_section_three {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: rgba(67, 68, 85, 1);
+}
+.header_two_section_four {
+  color: #2e2f42;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 ul {
   list-style-type: none;
 }
-footer {
-  background-color:rgba(46, 47, 66, 1);
-  width: 1440px;
-  height: 312px;
-  top: 2988px;
+.footer {
+  background-color: rgba(46, 47, 66, 1);
 }
-.link_info {
-  font-family: "Releway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-.info_footer {
+.logo_footer {
+  font-family: "Raleway", sans-serif;
   color: #f4f4fd;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.paragraph_footer {
+  font-family: "Roboto", sans-serif;
+  color: #f4f4fd;
+  font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
