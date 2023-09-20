@@ -39,10 +39,9 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.info:hover,
-.info:focus {
+.contact:hover,
+.contact:focus {
   color: #404bbf;
-  background-color: #404bb4;
 }
 .section_one {
   background: #2e2f42;
@@ -68,7 +67,7 @@ body {
 }
 .button:hover,
 .button:focus {
-  color: var(--OCEAN, #404bbf);
+  background-color: var(--OCEAN, #404bbf);
 }
 .header_three_section_two {
   font-family: "Roboto", sans-serif;
@@ -128,19 +127,19 @@ body {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+.header_three_section_four {
+  color: #2e2f42;
+  letter-spacing: 0.4px;
+  line-height: 1.2;
+  font-size: 20px;
+  font-weight: 500;
+}
 .paragraph_header_three_section_four {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
   color: #2e2f42;
-}
-.header_three_section_four {
-  color: #2e2f42;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
-  font-size: 20px;
-  font-weight: 500;
 }
 .footer {
   background-color: rgba(46, 47, 66, 1);
