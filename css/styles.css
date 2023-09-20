@@ -26,6 +26,7 @@ body {
 .li_link:hover,
 .li_link:focus {
   color: #404bbf;
+  background-color: #404bbf;
 }
 .address {
   font-style: normal;
@@ -41,6 +42,7 @@ body {
 .info:hover,
 .info:focus {
   color: #404bbf;
+  background-color: #404bb4;
 }
 .section_one {
   background: #2e2f42;
@@ -62,7 +64,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.04em;
   cursor: pointer;
-  background-color:#4d5ae5;
+  background-color: #4d5ae5;
 }
 .button:hover,
 .button:focus {
@@ -132,15 +134,31 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
+}
+.header_three_section_four {
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  font-size: 20px;
+  font-weight: 500;
 }
 .footer {
   background-color: rgba(46, 47, 66, 1);
 }
-.paragraph_footer {
-  font-family: "Roboto", sans-serif;
+.logo_footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo_studio_footer {
   color: #f4f4fd;
-  font-size: 16px;
+}
+.paragraph_footer {
+  color: #f4f4fd;
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
