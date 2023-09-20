@@ -137,9 +137,9 @@ body {
 }
 .paragraph_header_three_section_four {
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: #434455;
+  line-height: 1.5;
   font-family: "Roboto", sans-serif;
 }
 .footer {
